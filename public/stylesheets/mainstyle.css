@@ -291,15 +291,52 @@ header .header_content {
     text-align: center
 }
 
-header .header_content>.myname {
+/*header .header_content>.myname {
     min-width: 700px;
     font-size: 6em;
     letter-spacing: 3px;
     color: #F0D8DA;
-    font-weight: 900; 
+    font-weight: 900;
 }
+*/
 
-header .header_content>p {
+    header .header_content>.myname {
+        min-width: 700px;
+        transform: translate(0,-50%);
+        font-size : 6em;
+        letter-spacing: 3px;
+        font-weight: 900;
+        color : #F0D8DA;
+        text-shadow: 0 0 20px #eca4ab;
+    }
+    header .header_content>.myname .lastname{
+        color : #fff;
+    }
+
+    header .header_content>.myname :after{
+        content: attr(data-text);
+        position:absolute;
+        top:0;
+        left:0;
+        padding:0 20px;
+        z-index: -1;
+        color : #eca4ab;
+        filter : blur(10px);
+    }
+    header .header_content>.myname :before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background: #F0D8DA;
+        z-index: -2;
+        opacity : .3;
+        filter: blur(30px);
+
+    }
+/**/header .header_content>p {
     color: #F0D8DA;
     font-size: 2em;
     background-color: rgba(0, 0, 0, .5);
@@ -354,7 +391,7 @@ header .to_down {
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate-reverse;
     animation-direction: alternate-reverse
-} 
+}
 
 header .to_down i {
     color: #F0D8DA;
@@ -403,14 +440,14 @@ header .to_down:hover i {
 }
 
 .skills .skill {
-    text-align: center; 
+    text-align: center;
     color: #EDB2B8;
 }
- 
+
 .skills .service_item {
-    text-align: center; 
+    text-align: center;
     color : #F0D8DA;
-    padding: 20px; 
+    padding: 20px;
     letter-spacing: 1px;
     border: 1px solid rgba(255, 255, 255, .15);
     -webkit-transition: all .2s ease-in-out;
@@ -420,8 +457,8 @@ header .to_down:hover i {
 .skills .service_item:hover {
     border-color: #EDB2B8;
 }
- 
-.skills .service_item i { 
+
+.skills .service_item i {
     cursor: default;
     text-align: center;
     font-size: 5em;
@@ -429,8 +466,8 @@ header .to_down:hover i {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
- 
- 
+
+
 
 .projects .projects_control {
     padding: 30px 0;
@@ -459,8 +496,8 @@ header .to_down:hover i {
     border-color: #EDB2B8;
     box-shadow: 0 0 2px #EDB2B8;
     opacity: 1;
-    outline: 0; 
-} 
+    outline: 0;
+}
 
 .projects .post {
     position: relative
