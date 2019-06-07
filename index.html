@@ -317,22 +317,30 @@
         <section id="profile" class="section profile_us section_padding back_color1">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-7">
-                        <div class="profile_paragraph">
+                    <div class="col-xs-12 col-md-5">
                             <h2 class="color1">About <span class="span_color">Me</span></h2>
-                            <p class="line_height28 font_size16">
-                                I'm a full-stack developer with 2 years of professional experience, have experience as a mobile testing engineer as well as an office assistant. <br/>
-                                After marrying my wife in South Korea, we decided to move back and are currently residing in Seattle.<br/>
-                                Since they are new to South Korea, I'm teaching myself Node.js, Express, and Bootstrap. I'm always open to learning more. <br/>
+                               <div class="profile_picture">
+                            <img src="public/images/changseop.jpg" alt="Changseop">
+                        </div>
+                           
+
+                    </div> 
+                    <div class="col-xs-12 col-md-7">
+
+                        <div class="profile_paragraph">
+                         <p class="line_height28 font_size16">
+                                I'm a full-stack developer with 2 years of professional experience, have experience as a mobile testing engineer as well as an office assistant. <br/><br/>
+                                After marrying my wife in South Korea, we decided to move back and are currently residing in Seattle.<br/><br/>
+                                Since they are new to South Korea, I'm teaching myself Node.js, Express, MongoDB, and Bootstrap. I'm always open to learning more. <br/>
                                 
                             </p>
-                            <a class="btn mt_20" href="#">Download Résumé</a>
+
+                            <a class="btn mt_20" href="https://docs.google.com/document/d/1ZfNaCkpgvYGkBKJw--64CFsNReLFUeJ2IB7YQcjZVX8/edit?usp=sharing" target="_blank">Résumé</a>
+                            <a class="btn mt_20" href="https://www.linkedin.com/in/jaden-oh-667029109/" target="_blank"><i class="fab fa-linkedin color1" aria-hidden="true"></i></a>
+                            <a class="btn mt_20" href="https://github.com/ChangSeopOh" target="_blank"><i class="fab fa-github color1" aria-hidden="true"></i></a>
 
                         </div>
-
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-
+                     
                     </div>
                 </div>
             </div>
@@ -365,33 +373,26 @@
                         </address>
                     </div>
                     <div class="col-xs-12 col-md-8">
-                        <form class="form-horizontal contact_form" action="" method="post">
+
+                        <div class="form-horizontal contact_form" action="" method="post">
                             <div class="form-group form-group-lg">
                                 <div class="col-xs-12">
-                                    <input type="text" class="font_size16 form-control" id="inputname" placeholder="Subject" name="user" required="required">
+                                    <input type="text" class="font_size16 form-control" id="inputname" placeholder="Subject">
                                 </div>
                             </div>
                             <div class="form-group form-group-lg">
                                 <div class="col-xs-12">
-                                    <input type="email" class="font_size16 form-control" id="inputemail" placeholder="Your email" name="email" required="required" autocomplete="email">
-                                </div>
-                            </div>
-                            <div class="form-group form-group-lg">
-                                <div class="col-xs-12">
-                                    <textarea class="font_size16 form-control" rows="5" id="inputmessage" placeholder="Your Message" name="message" required="required"></textarea>
+                                    <textarea class="font_size16 form-control" rows="7" id="inputmessage" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group form-group-lg">
                                 <div class="col-xs-12">
 
-                                    <button type="submit" class="btn font_size16">SEND</button>
-
-                                </div>
-                                <div class="col-xs-12">
-                                    <p class="color1">It will be sent thorugh Sendgrid free acount</p>
-                                </div>
+                                    <button type="button" class="btn font_size16" id="email">SEND</button>
+                                    <div id="email_Iframe"></div>
+                                </div> 
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

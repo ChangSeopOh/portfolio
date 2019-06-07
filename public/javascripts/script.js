@@ -8,10 +8,21 @@ $(document).ready(function() {
         navMobile = $(".navbar .collapse"),
         toTop = $(".to_top"),
         toDown = $("header .to_down"),
+        email = $("#email"),
         contactmebtn = $("header .header_content .contact_me"),
         mixerContainer = $("#projects .projects_content"),
         PopUp = $(".projects .projects_content .mix .project_item .item_caption .popup"),
         mixer = mixitup(mixerContainer, { selectors: { control: ".projects_control > button" } });
+
+
+    email.on("click", function() {  
+        var subject = document.getElementById("inputname").value;
+        var message = document.getElementById("inputmessage").value;  
+      $('<iframe src="mailto:jaden.oh@yahoo.com?subject='+subject+'&body='+message+'">').appendTo('#email_Iframe').css("display", "none");
+
+     });
+
+
     links.on("click", function(event) {
         event.preventDefault();
         if ($(window).innerWidth() > 766) { body.animate({ scrollTop: $($(this).data("link")).offset().top }, 500) } else {

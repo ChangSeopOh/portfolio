@@ -769,9 +769,9 @@ header .to_down:hover i {
 
 
 .profile_us .profile_paragraph p {
-    font-weight: 400;
-    padding-right: 20%;
+    font-weight: 400; 
     letter-spacing: 1px;
+
     color: #a0a0a0
 }
 
@@ -782,16 +782,37 @@ header .to_down:hover i {
     color: #F0D8DA;
     font-weight: 900;
     padding: 12px 25px;
-    border-radius: 0;
-    border: 1px solid rgba(255, 255, 255, .3)
+    border-radius: 0; 
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, .3); 
 }
 
+.profile_us .profile_paragraph a  i{
+    margin : 0;
+    padding : 0;
+    font-size : 1.3em;
+}
 .profile_us .profile_paragraph a:focus,
 .profile_us .profile_paragraph a:hover {
     color: #F0D8DA;
     background-color: #000;
     border-color: #EDB2B8
 }
+
+
+.profile_us .profile_picture { 
+    width: 90%;
+    border: 5px solid #111;
+    box-shadow: 0 0 9px #F0D8DA;
+    margin-bottom : 10%; 
+    overflow: hidden;
+    margin-left : 5%;
+}
+
+.profile_us .profile_picture img {
+    width: 100%
+}
+
 
 /*End Profile & Start Contact*/
 
