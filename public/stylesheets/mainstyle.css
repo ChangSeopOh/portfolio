@@ -445,7 +445,7 @@ header .to_down:hover i {
 }
 
 .skills .service_item {
-    
+
     text-align: center;
     color : #F0D8DA;
     padding: 20px;
@@ -509,6 +509,16 @@ header .to_down:hover i {
   box-shadow: none;
 }
 
+
+.projects .projects_content { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .projects_content .post_item{ 
+  display: flex;
+  flex-direction: column;
+}
 
 .projects .post {
     position: relative
