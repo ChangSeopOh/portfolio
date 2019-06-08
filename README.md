@@ -5,7 +5,9 @@
 - Profile
 - Career
 - Nav bar
-
+- Upload resume from googleDrive to local
+- Safari bug fix(bootstrap issue)
+- reduce file size.
 
 
 # Things to do
