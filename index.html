@@ -1,501 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- META -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="seattle, software, developer, engineer, resume, cv, portfolio, modern, programmer">
-        <meta name="author" content="Changseop_Oh">
-        <meta name="description" content="This is a personal portfolio">
-        <title>Changseop Oh's Portfolio</title>
-        <!-- FONT AWESOME CSS -->
-        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>
-        <!-- BOOTSTRAB CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans&display=swap" rel="stylesheet">
-        <!-- MAIN STYLE CSS -->
-        <link rel='stylesheet' href='public/stylesheets/mainstyle.css'/>
-        <!-- RESPONSIVE CSS -->
-        <link rel='stylesheet' href='public/stylesheets/media.css'/>
-        <!-- DEVICON CSS  -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="seattle, software, developer, engineer, resume, cv, portfolio, modern, programmer">
+    <meta name="author" content="Changseop_Oh">
+    <meta name="description" content="This is a personal portfolio">
+    <title>Changseop Oh's Portfolio</title>
+    <!-- FONT AWESOME CSS -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' />
+    <!-- BOOTSTRAB CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans&display=swap" rel="stylesheet">
+    <!-- MAIN STYLE CSS -->
+    <link rel='stylesheet' href='public/stylesheets/mainstyle.css' />
+    <!-- RESPONSIVE CSS -->
+    <link rel='stylesheet' href='public/stylesheets/media.css' />
+    <!-- DEVICON CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
 
-    </head>
-    <body class="back_color2">
+</head>
 
-        <!-- To home button -->
-        <div class="to_top" id="to_top">
-            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+<body class="back_color2">
+
+    <!-- To home button -->
+    <div class="to_top" id="to_top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </div>
+
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand color1" href="#" data-link="#home">
+                    <span class="span_color">Changseop </span>Oh</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar_collapse" aria-expanded="false">
+                    <!-- collapsed menu -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar_collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="current font_size13" data-link="#home">Home</a></li>
+                    <li><a href="#" class="font_size13" data-link="#skills">Skills</a></li>
+                    <li><a href="#" class="font_size13" data-link="#projects">Projects</a></li>
+                    <li><a href="#" class="font_size13" data-link="#careers">Career</a></li>
+                    <li><a href="#" class="font_size13" data-link="#profile">Profile</a></li>
+                    <li><a href="#" class="font_size13" data-link="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <!-- /End Navigation -->
 
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand color1" href="#" data-link="#home">
-                        <span class="span_color">Changseop </span>Oh</a>
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse" aria-expanded="false">
-                        <!-- collapsed menu -->
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
+    <!-- Start Home -->
+    <header id="home" class="section back_color2">
+        <div class="background"></div>
+        <div class="canvas" id="particles-js"></div>
+        <div class="header_content">
+            <h1 class="myname" data-text="Changseop Oh">Changseop <span class="lastname">Oh</span></h1>
 
-                <div class="collapse navbar-collapse" id="navbar_collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="current font_size13" data-link="#home">Home</a></li>
-                        <li><a href="#" class="font_size13" data-link="#skills">Skills</a></li>
-                        <li><a href="#" class="font_size13" data-link="#projects">Projects</a></li>
-                        <li><a href="#" class="font_size13" data-link="#careers">Career</a></li>
-                        <li><a href="#" class="font_size13" data-link="#profile">Profile</a></li>
-                        <li><a href="#" class="font_size13" data-link="#contact">Contact</a></li>
-                    </ul>
+            <a href="#" class="btn contact_me">Contact Me</a>
+
+
+        </div>
+        <button type="button" class="to_down"><i class="glyphicon glyphicon-menu-down" aria-hidden="true"></i></button>
+    </header>
+    <!-- End Home -->
+
+    <!-- Start Skills -->
+    <section id="skills" class="section skills section_padding back_color2">
+        <div class="container">
+            <h2 class="color1"><span class="span_color">My</span> Skills</h2>
+
+            <div class="skill">
+                <h3>Languages</h3>
+                <div class="service_item back_color1">
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-typescript-plain colored"></i>
+                    <i class="devicon-java-plain-wordmark colored"></i>
                 </div>
             </div>
-        </nav>
-        <!-- /End Navigation -->
 
-        <!-- Start Home -->
-        <header id="home" class="section back_color2">
-            <div class="background"></div>
-            <div class="canvas" id="particles-js"></div>
-            <div class="header_content">
-                <h1 class="myname" data-text="Changseop Oh">Changseop <span class="lastname">Oh</span></h1>
-
-                <a href="#" class="btn contact_me" >Contact Me</a>
-
-
+            <div class="skill">
+                <h3>Databases/Platforms</h3>
+                <div class="service_item back_color1 ">
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    <i class="devicon-android-plain-wordmark colored"></i>
+                    <i class="devicon-linux-plain"></i>
+                    <i class="devicon-ubuntu-plain-wordmark colored"></i>
+                </div>
             </div>
-            <button type="button" class="to_down"><i class="glyphicon glyphicon-menu-down" aria-hidden="true"></i></button>
-        </header>
-        <!-- End Home -->
 
-        <!-- Start Skills -->
-        <section id="skills" class="section skills section_padding back_color2">
-            <div class="container">
-                <h2 class="color1"><span class="span_color">My</span> Skills</h2>
-
-                <div class="skill">
-                     <h3>Languages</h3>
-                      <div class="service_item back_color1"> 
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                        <i class="devicon-javascript-plain colored"></i>
-                        <i class="devicon-java-plain-wordmark colored"></i> 
-                     </div>
+            <div class="skill">
+                <h3>Libraies/Frameworks</h3>
+                <div class="service_item back_color1 ">
+                    <i class="devicon-apache-line-wordmark colored"></i>
+                    <i class="devicon-tomcat-line colored"></i>
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    <i class="devicon-express-original-wordmark"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-jquery-plain-wordmark colored"></i>
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <i class="devicon-nestjs-plain-wordmark colored"></i>
+                    <i class="devicon-materialui-plain colored"></i>
                 </div>
-
-                <div class="skill">
-                     <h3>Databases/Platforms</h3>
-                      <div class="service_item back_color1 ">
-                        <i class="devicon-oracle-original colored"></i>
-                        <i class="devicon-mysql-plain-wordmark colored"></i>
-                        <i class="devicon-mongodb-plain-wordmark colored"></i>
-                        <i class="devicon-android-plain-wordmark colored"></i>
-                        <i class="devicon-linux-plain"></i>
-                        <i class="devicon-ubuntu-plain-wordmark colored"></i>
-                     </div>
-                </div>
-
-                <div class="skill">
-                     <h3>Libraies/Frameworks</h3>
-                      <div class="service_item back_color1 ">
-                        <i class="devicon-apache-line-wordmark colored"></i>
-                        <i class="devicon-tomcat-line colored"></i>
-                        <i class="devicon-nodejs-plain-wordmark colored"></i>
-                        <i class="devicon-express-original-wordmark"></i>
-                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                        <i class="devicon-jquery-plain-wordmark colored"></i>
-                        <i class="devicon-react-original-wordmark colored"></i>
-                     </div>
-                </div>
-
-                <div class="skill">
-                     <h3>Technologies</h3>
-                      <div class="service_item back_color1 ">
-                        <i class="devicon-atom-original-wordmark"></i>
-                        <i class="devicon-git-plain-wordmark colored"></i>
-                        <i class="devicon-github-plain-wordmark"></i>
-                        <i class="devicon-heroku-line-wordmark colored"></i>
-                     </div>
-                </div>
-
             </div>
-        </section>
-        <!-- /End Skills -->
 
-        <!-- Start projects -->
-        <section id="projects" class="section projects section_padding back_color1">
-           <div class="container">
-                <h2 class="color1"><span class="span_color">My</span> Projects</h2>
-                <div class="projects_control">
-                    <button type="button" class="btn color1" data-filter="all">All</button>
-                    <button type="button" class="btn color1" data-filter=".p_personal">Personal</button>
-                    <button type="button" class="btn color1" data-filter=".p_team">Team</button>
-                    <button type="button" class="btn color1" data-filter=".p_work">Work</button>
-                </div> 
-                <div class=" projects_content">
-                    <!-- ColorPicker project -->
-                 <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="1">
+            <div class="skill">
+                <h3>Technologies</h3>
+                <div class="service_item back_color1 ">
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                    <i class="devicon-visualstudio-plain-wordmark colored"></i>
+                    <i class="devicon-atom-original-wordmark"></i>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <i class="devicon-github-plain-wordmark"></i>
+                    <i class="devicon-heroku-line-wordmark colored"></i>
+                    <i class="devicon-slack-plain-wordmark"></i>
+                    <i class="devicon-trello-plain-wordmark colored"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /End Skills -->
+
+    <!-- Start projects -->
+    <section id="projects" class="section projects section_padding back_color1">
+        <div class="container">
+            <h2 class="color1"><span class="span_color">My</span> Projects</h2>
+            <div class="projects_control">
+                <button type="button" class="btn color1" data-filter="all">All</button>
+                <button type="button" class="btn color1" data-filter=".p_personal">Personal</button>
+                <button type="button" class="btn color1" data-filter=".p_team">Team</button>
+                <button type="button" class="btn color1" data-filter=".p_work">Work</button>
+            </div>
+            <div class=" projects_content">
+                <!--CarMeets web -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="501">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/carmeets.jpg" alt="photo post">
+                            <span class="date color1 font_size16">CarMeets</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : Full-Stack
+                        </h3>
+                        <!-- <p class="post_title color1 font_size13">JSS, React, Hooks, Material UI, Express, Stripe
+                        </p> -->
+                        <a href="https://carmeets.app/" class="read_more color1 font_size16" target="_blank">Visit:<i
+                                class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ColorPicker project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="501">
                     <div class="post mt_20 ">
                         <div class="post_img">
                             <img src="public/images/color_picker.jpg" alt="photo post">
                             <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>June 01 2019 - Present</span> -->
                             <span class="date color1 font_size16">Color Picker</span>
                         </div>
-                        <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : Responsive Design, SPA</h3>
+                        <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : Responsive Design, SPA
+                        </h3>
                         <p class="post_title color1 font_size13">JSS, React, Hooks, Material UI
-                        </p> 
-                        <a href="https://github.com/ChangSeopOh/ColorPickerApp" class="read_more color1 font_size16"  target="_blank">Github:<i class="fab fa-github"></i></a>
-                        <a href="https://colorpickerapp.herokuapp.com/" class="read_more color1 font_size16"  target="_blank">Visit:<i class="fas fa-angle-right"></i></a> 
+                        </p>
+                        <a href="https://github.com/ChangSeopOh/ColorPickerApp" class="read_more color1 font_size16"
+                            target="_blank">Github:<i class="fab fa-github"></i></a>
+                        <a href="https://colorpickerapp.herokuapp.com/" class="read_more color1 font_size16"
+                            target="_blank">Visit:<i class="fas fa-angle-right"></i></a>
                     </div>
-                </div> 
-                        <!-- Portfolio project -->
-                     <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="2">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/portfolio.jpg" alt="photo post">
-                                <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>June 01 2019 - Present</span> -->
-                                <span class="date color1 font_size16">CSS Heavy Portfolio</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : CSS animation, Bootstrap components, and styling.</h3>
-                            <p class="post_title color1 font_size13">Html, CSS, Bootstrap, Javascript, jQuery
-                            </p> <!-- <ul class="post_details color1 font_size13">
+                </div>
+                <!-- Portfolio project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="502">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/portfolio.jpg" alt="photo post">
+                            <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>June 01 2019 - Present</span> -->
+                            <span class="date color1 font_size16">CSS Heavy Portfolio</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : CSS animation, Bootstrap
+                            components, and styling.</h3>
+                        <p class="post_title color1 font_size13">Html, CSS, Bootstrap, Javascript, jQuery
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
                                 <li>hi</li>
                                 <li>thisis</li>
                                 <li>description</li>
                                 <li>Test</li>
                                 <li>Yap</li>
                             </ul>  -->
-                            <a href="https://github.com/ChangSeopOh/portfolio" class="read_more color1 font_size16"  target="_blank">Github:<i class="fab fa-github"></i></a>
-                        </div>
+                        <a href="https://github.com/ChangSeopOh/portfolio" class="read_more color1 font_size16"
+                            target="_blank">Github:<i class="fab fa-github"></i></a>
                     </div>
-                        <!-- SeattleRentals project -->
-                     <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="3">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/seattle_rentals.jpg" alt="photo post">
-                                <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>May 01 2019 - Present</span> -->
-                                <span class="date color1 font_size16">Seattle-Rentals</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : ImageUpload, Map, Search, Email, Profile, and etc.</h3>
-                            <p class="post_title color1 font_size13">Javascript, Bootstrap, Node.js, Express, jQuery, MongoDB
-                            </p>
-                            <!-- <ul class="post_details color1 font_size13">
+                </div>
+                <!-- SeattleRentals project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="503">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/seattle_rentals.jpg" alt="photo post">
+                            <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>May 01 2019 - Present</span> -->
+                            <span class="date color1 font_size16">Seattle-Rentals</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : ImageUpload, Map,
+                            Search, Email, Profile, and etc.</h3>
+                        <p class="post_title color1 font_size13">Javascript, Bootstrap, Node.js, Express, jQuery,
+                            MongoDB
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
                                 <li>hi</li>
                                 <li>thisis</li>
                                 <li>description</li>
                                 <li>Test</li>
                                 <li>Yap</li>
                             </ul>  -->
-                            <a href="https://github.com/ChangSeopOh/Seattle-Rentals" class="read_more color1 font_size16"  target="_blank">Github:<i class="fab fa-github"></i></a>
-                                <a href="https://seattle-rentals.herokuapp.com" class="read_more color1 font_size16"  target="_blank">Visit:<i class="fas fa-angle-right"></i></a> 
-                        </div>
+                        <a href="https://github.com/ChangSeopOh/Seattle-Rentals" class="read_more color1 font_size16"
+                            target="_blank">Github:<i class="fab fa-github"></i></a>
+                        <a href="https://seattle-rentals.herokuapp.com" class="read_more color1 font_size16"
+                            target="_blank">Visit:<i class="fas fa-angle-right"></i></a>
                     </div>
-                        <!-- SeattleTours proejct -->
-                     <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="4">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/seattle_tours.jpg" alt="photo post">
-                              <!--   <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Mar 01 2019 - Present</span> -->
-                                <span class="date color1 font_size16">Seattle-Tours</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : Front End Features.</h3>
-                            <p class="post_title color1 font_size13">Javascript, Bootstrap, Node.js, Express, jQuery, MongoDB
-                            </p><!-- <ul class="post_details color1 font_size13">
+                </div>
+                <!-- SeattleTours proejct -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_personal post_item" data-order="504">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/seattle_tours.jpg" alt="photo post">
+                            <!--   <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Mar 01 2019 - Present</span> -->
+                            <span class="date color1 font_size16">Seattle-Tours</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-user"></i> Focused on : Front End Features.</h3>
+                        <p class="post_title color1 font_size13">Javascript, Bootstrap, Node.js, Express, jQuery,
+                            MongoDB
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
                                 <li>hi</li>
                                 <li>thisis</li>
                                 <li>description</li>
                                 <li>Test</li>
                                 <li>Yap</li>
                             </ul>  -->
-                            <a href="https://github.com/ChangSeopOh/Seattle-Tours" class="read_more color1 font_size16"  target="_blank">Github:<i class="fab fa-github"></i></a>
-                                <a href="https://seattle-tours.herokuapp.com" class="read_more color1 font_size16"  target="_blank">Visit:<i class="fas fa-angle-right"></i></a> 
-                        </div>
+                        <a href="https://github.com/ChangSeopOh/Seattle-Tours" class="read_more color1 font_size16"
+                            target="_blank">Github:<i class="fab fa-github"></i></a>
+                        <a href="https://seattle-tours.herokuapp.com" class="read_more color1 font_size16"
+                            target="_blank">Visit:<i class="fas fa-angle-right"></i></a>
                     </div>
-                    <!--HR project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="5">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/fujixerox.jpg" alt="photo post">
-                                <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Apr 2018 - Sep 2018</span> -->
-                                <span class="date color1 font_size16">HR System Interface</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : Interface to legacy system.</h3>
-                            <p class="post_title color1 font_size13">Java, Solaris, XML, Oracle
-                            </p><!-- <ul class="post_details color1 font_size13">
+                </div>
+                <!--HR project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="505">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/fujixerox.jpg" alt="photo post">
+                            <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Apr 2018 - Sep 2018</span> -->
+                            <span class="date color1 font_size16">HR System Interface</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : Interface to legacy
+                            system.</h3>
+                        <p class="post_title color1 font_size13">Java, Solaris, XML, Oracle
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
                                 <li>hi</li>
                                 <li>thisis</li>
                                 <li>description</li>
                                 <li>Test</li>
                                 <li>Yap</li>
                             </ul>  -->
-                            
-                        </div>
-                    </div>
-                    <!-- Payroll project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="6">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/fujixerox.jpg" alt="photo post">
-                              <!--   <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Sep 01 2016 - Sep 28 2018</span> -->
-                                <span class="date color1 font_size16">Payroll System</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : System maintenance.</h3>
-                            <p class="post_title color1 font_size13">Java, Oracle, Javascript, JSP, Solaris, IBSheet, iBatis, jQuery, Tomcat
-                            </p><!-- <ul class="post_details color1 font_size13">
-                                <li>hi</li>
-                                <li>thisis</li>
-                                <li>description</li>
-                                <li>Test</li>
-                                <li>Yap</li>
-                            </ul>  -->
-                        
-                        </div>
-                    </div>
-                    <!-- Expense project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="7">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/fujixerox.jpg" alt="photo post">
-                                <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Sep 01 2016 - Sep 28 2018</span> -->
-                                <span class="date color1 font_size16">Expense System</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : System maintenance.</h3>
-                            <p class="post_title color1 font_size13">Java, Oracle, Javascript, JSP, Solaris, Tomcat 
-                            </p><!-- <ul class="post_details color1 font_size13">
-                                <li>hi</li>
-                                <li>thisis</li>
-                                <li>description</li>
-                                <li>Test</li>
-                                <li>Yap</li>
-                            </ul>  -->
-                        
-                        </div>
-                    </div>
-                    <!-- EventCommunity project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="8">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/moccoji.jpg" alt="photo post">
-                                <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>May 09 2016 - June 18 2016</span> -->
-                                <span class="date color1 font_size16">Moccoji (Community event APP on Andriod)</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Database, MyBatis, and chatting function.</h3>
-                            <p class="post_title color1 font_size13">MySQL, Spring, MyBatis, Android, Java, Tomcat
-                            </p><!-- <ul class="post_details color1 font_size13">
-                                <li>hi</li>
-                                <li>thisis</li>
-                                <li>description</li>
-                                <li>Test</li>
-                                <li>Yap</li>
-                            </ul>  -->
-                           
-                        </div>
-                    </div>
-                    <!-- Datingcard project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="9">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/datingcard.jpg" alt="photo post">
-                               <!--  <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Dec 24 2013 - Mar 2014</span> -->
-                                <span class="date color1 font_size16">DatingCard (Recommended date locations APP on IOS)</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Database modeling and querying.</h3>
-                            <p class="post_title color1 font_size13">MySQL, Spring, iBatis, JSP, Java, Objective-c
-                            </p><!-- <ul class="post_details color1 font_size13">
-                                <li>hi</li>
-                                <li>thisis</li>
-                                <li>description</li>
-                                <li>Test</li>
-                                <li>Yap</li>
-                            </ul>  -->
-                          
-                        </div>
-                    </div>
-                    <!-- RON project -->
-                    <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="10">
-                        <div class="post mt_20 ">
-                            <div class="post_img">
-                                <img src="public/images/ron.jpg" alt="photo post">
-                               <!--  <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Oct 2013 - Dec 2013</span> -->
-                                <span class="date color1 font_size16">Revenge Of the Ninja (Side scrolling game on Andriod)</span>
-                            </div>
-                            <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Teamwork and collaboration.</h3>
-                            <p class="post_title color1 font_size13">Java, Android, Bayaba engine
-                            </p><!-- <ul class="post_details color1 font_size13">
-                                <li>hi</li>
-                                <li>thisis</li>
-                                <li>description</li>
-                                <li>Test</li>
-                                <li>Yap</li>
-                            </ul>  -->
-                           
-                        </div>
-                    </div>
 
-                </div> 
+                    </div>
+                </div>
+                <!-- Payroll project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="506">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/fujixerox.jpg" alt="photo post">
+                            <!--   <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Sep 01 2016 - Sep 28 2018</span> -->
+                            <span class="date color1 font_size16">Payroll System</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : System maintenance.
+                        </h3>
+                        <p class="post_title color1 font_size13">Java, Oracle, Javascript, JSP, Solaris, IBSheet,
+                            iBatis, jQuery, Tomcat
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
+                                <li>hi</li>
+                                <li>thisis</li>
+                                <li>description</li>
+                                <li>Test</li>
+                                <li>Yap</li>
+                            </ul>  -->
+
+                    </div>
+                </div>
+                <!-- Expense project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_work post_item" data-order="507">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/fujixerox.jpg" alt="photo post">
+                            <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Sep 01 2016 - Sep 28 2018</span> -->
+                            <span class="date color1 font_size16">Expense System</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-building"></i> Focused on : System maintenance.
+                        </h3>
+                        <p class="post_title color1 font_size13">Java, Oracle, Javascript, JSP, Solaris, Tomcat
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
+                                <li>hi</li>
+                                <li>thisis</li>
+                                <li>description</li>
+                                <li>Test</li>
+                                <li>Yap</li>
+                            </ul>  -->
+
+                    </div>
+                </div>
+                <!-- EventCommunity project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="508">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/moccoji.jpg" alt="photo post">
+                            <!-- <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>May 09 2016 - June 18 2016</span> -->
+                            <span class="date color1 font_size16">Moccoji (Community event APP on Andriod)</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Database, MyBatis, and
+                            chatting function.</h3>
+                        <p class="post_title color1 font_size13">MySQL, Spring, MyBatis, Android, Java, Tomcat
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
+                                <li>hi</li>
+                                <li>thisis</li>
+                                <li>description</li>
+                                <li>Test</li>
+                                <li>Yap</li>
+                            </ul>  -->
+
+                    </div>
+                </div>
+                <!-- Datingcard project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="509">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/datingcard.jpg" alt="photo post">
+                            <!--  <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Dec 24 2013 - Mar 2014</span> -->
+                            <span class="date color1 font_size16">DatingCard (Recommended date locations APP on
+                                IOS)</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Database modeling and
+                            querying.</h3>
+                        <p class="post_title color1 font_size13">MySQL, Spring, iBatis, JSP, Java, Objective-c
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
+                                <li>hi</li>
+                                <li>thisis</li>
+                                <li>description</li>
+                                <li>Test</li>
+                                <li>Yap</li>
+                            </ul>  -->
+
+                    </div>
+                </div>
+                <!-- RON project -->
+                <div class="mix col-xs-12 col-sm-6 col-md-4 p_team post_item" data-order="510">
+                    <div class="post mt_20 ">
+                        <div class="post_img">
+                            <img src="public/images/ron.jpg" alt="photo post">
+                            <!--  <span class="date color1"><i class="fa fa-calendar" aria-hidden="true"></i>Oct 2013 - Dec 2013</span> -->
+                            <span class="date color1 font_size16">Revenge Of the Ninja (Side scrolling game on
+                                Andriod)</span>
+                        </div>
+                        <h3 class="color1 font_size16"><i class="fas fa-users"></i> Focused on : Teamwork and
+                            collaboration.</h3>
+                        <p class="post_title color1 font_size13">Java, Android, Bayaba engine
+                        </p>
+                        <!-- <ul class="post_details color1 font_size13">
+                                <li>hi</li>
+                                <li>thisis</li>
+                                <li>description</li>
+                                <li>Test</li>
+                                <li>Yap</li>
+                            </ul>  -->
+
+                    </div>
+                </div>
+
             </div>
-        </section>
-        <!-- /End projects -->
+        </div>
+    </section>
+    <!-- /End projects -->
 
-        <!-- Start Work Experience -->
-        <section id="careers" class="section careers section_padding back_color2">
-            <div class="container">
-                <h2 class="color1"><span class="span_color">My</span> Experiences</h2>
-                <ul class="back_color1">
-                    <li>
-                        <div class="back_color2">
-                            <h3 class="color1">Self studying</h3>
-                            <span class="time">OCT 01 2018 - Present</span>
-                            <p>While waiting for my American permanent residency card,<br>I’ve been learning more modern skills</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="back_color2">
-                            <h3 class="color1">ERP System Engineer</h3>
-                            <span class="time">Sep 01 2016 - Sep 28 2018 (2Y1M)</span>
-                            <p>Fuji Xerox Korea Information System in Seoul, South Korea<br>I was responsible for the Payroll System, Expense System, and the HR System for internal employees.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="back_color2">
-                            <h3 class="color1">Mobile Testing Engineer</h3>
-                            <span class="time">Aug 11 2014 - July 24 2015 (11M)</span>
-                            <p>BTI Solutions in Dallas, TX, USA<br>Worked with Samsung R&D in Samsung Mobile's lab and launched major projects : Samsung Galaxy S6, S7, Note5, and etc.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="back_color2">
-                            <h3 class="color1">Office Assistant/IT Support</h3>
-                            <span class="time">Sep 01 2013 - july 24 2014 (11M)</span>
-                            <p>Incheon National University in Incheon, South Korea<br>Maintained computers and assisted professors.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="back_color2">
-                            <h3 class="color1">Office Assistant/IT Support</h3>
-                            <span class="time">Mar 02 2009 - Dec 31 2009 (10M)</span>
-                            <p>Junior College of Incheon in Incheon, South Korea<br>Maintained computers and assisted professors.</p>
-                        </div>
-                    </li>
-                </ul>
+    <!-- Start Work Experience -->
+    <section id="careers" class="section careers section_padding back_color2">
+        <div class="container">
+            <h2 class="color1"><span class="span_color">My</span> Experiences</h2>
+            <ul class="back_color1">
+                <li>
+                    <div class="back_color2">
+                        <h3 class="color1">Mobile Back-End &<br /> Web Full-Stack</h3>
+                        <span class="time">Dec 28 2019 - Present (1Y+)</span>
+                        <p>CarMeets in Seattle, WA, USA<br>I am responsible for the Web Application as well as Back-End.
+                        </p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="back_color2">
+                        <h3 class="color1">ERP Software Engineer</h3>
+                        <span class="time">Sep 01 2016 - Sep 28 2018 (2Y1M)</span>
+                        <p>Fuji Xerox Korea Information System in Seoul, South Korea<br>I was responsible for the
+                            Payroll System, Expense System, and the HR System for internal employees.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="back_color2">
+                        <h3 class="color1">Mobile Testing Engineer</h3>
+                        <span class="time">Aug 11 2014 - July 24 2015 (11M)</span>
+                        <p>BTI Solutions in Dallas, TX, USA<br>Worked with Samsung R&D in Samsung Mobile's lab and
+                            launched major projects : Samsung Galaxy S6, S7, Note5, and etc.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="back_color2">
+                        <h3 class="color1">Office Assistant/IT Support</h3>
+                        <span class="time">Sep 01 2013 - july 24 2014 (11M)</span>
+                        <p>Incheon National University in Incheon, South Korea<br>Maintained computers and assisted
+                            professors.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="back_color2">
+                        <h3 class="color1">Office Assistant/IT Support</h3>
+                        <span class="time">Mar 02 2009 - Dec 31 2009 (10M)</span>
+                        <p>Junior College of Incheon in Incheon, South Korea<br>Maintained computers and assisted
+                            professors.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- /End Work Experience -->
+
+
+    <!-- Start profile -->
+    <section id="profile" class="section profile_us section_padding back_color1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-5">
+                    <h2 class="color1">About <span class="span_color">Me</span></h2>
+                    <div class="profile_picture">
+                        <img src="public/images/profile.jpg" alt="Changseop">
+                    </div>
+
+
+                </div>
+                <div class="col-xs-12 col-md-7">
+
+                    <div class="profile_paragraph">
+                        <p class="line_height28 font_size16">
+                            I'm a full-stack developer with more than 3 years of professional experience, have
+                            experience as a
+                            mobile testing engineer as well as an office assistant. <br /><br />
+                            I'm always open to learning more. <br />
+
+                        </p>
+
+                        <a class="btn mt_20" href="./public/Resume(Changseop_Oh).pdf" download>Download Résumé</a>
+                        <a class="btn mt_20" href="https://www.linkedin.com/in/changseop-oh-667029109"
+                            target="_blank"><i class="fab fa-linkedin color1" aria-hidden="true"></i></a>
+                        <a class="btn mt_20" href="https://github.com/ChangSeopOh" target="_blank"><i
+                                class="fab fa-github color1" aria-hidden="true"></i></a>
+
+                    </div>
+
+                </div>
             </div>
-        </section>
-        <!-- /End Work Experience -->
+        </div>
+    </section>
+    <!-- /End profile -->
 
 
-        <!-- Start profile -->
-        <section id="profile" class="section profile_us section_padding back_color1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-5">
-                            <h2 class="color1">About <span class="span_color">Me</span></h2>
-                               <div class="profile_picture">
-                            <img src="public/images/profile.jpg" alt="Changseop">
+    <!-- Start Contact -->
+    <section id="contact" class="section section_padding back_color2">
+        <div class="container">
+            <h2 class="color1">Contact <span class="span_color">Me</span></h2>
+            <div class="contact_me row">
+                <div class="col-xs-12 col-md-4">
+                    <address>
+                        <div class="contact">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span class="color1 font_size16">Address :</span>
+                            <p class="color1">170 11th Avenue, Seattle, WA</p>
                         </div>
-                           
-
-                    </div> 
-                    <div class="col-xs-12 col-md-7">
-
-                        <div class="profile_paragraph">
-                         <p class="line_height28 font_size16">
-                                I'm a full-stack developer with 2 years of professional experience, have experience as a mobile testing engineer as well as an office assistant. <br/><br/>
-                                After marrying my wife in South Korea, we decided to move back and are currently residing in Seattle.<br/><br/>
-                                I'm always open to learning more. <br/>
-                                
-                            </p>
-
-                            <a class="btn mt_20" href="./public/Resume(Changseop_Oh).pdf" download>Download Résumé</a>
-                            <a class="btn mt_20" href="https://www.linkedin.com/in/changseop-oh-667029109" target="_blank"><i class="fab fa-linkedin color1" aria-hidden="true"></i></a>
-                            <a class="btn mt_20" href="https://github.com/ChangSeopOh" target="_blank"><i class="fab fa-github color1" aria-hidden="true"></i></a>
-
+                        <div class="contact">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span class="color1 font_size16">Mobile :</span>
+                            <p class="color1">+1 206 372 7716</p>
                         </div>
-                     
+                        <div class="contact">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span class="color1 font_size16">Email :</span>
+                            <p class="color1">jaden.oh@yahoo.com</p>
+                        </div>
+                    </address>
+                </div>
+                <div class="col-xs-12 col-md-8">
+
+                    <div class="form-horizontal contact_form" action="" method="post">
+                        <div class="form-group form-group-lg">
+                            <div class="col-xs-12">
+                                <input type="text" class="font_size16 form-control" id="inputname"
+                                    placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-lg">
+                            <div class="col-xs-12">
+                                <textarea class="font_size16 form-control" rows="7" id="inputmessage"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-lg">
+                            <div class="col-xs-12">
+
+                                <button type="button" class="btn font_size16" id="email">SEND</button>
+                                <div id="email_Iframe"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- /End profile -->
+        </div>
+    </section>
+    <!-- /End Contact -->
 
+    <!-- Start Footer -->
+    <footer>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/changseop-oh-667029109" target="_blank"><i
+                    class="fab fa-linkedin color1" aria-hidden="true"></i></a>
+            <a href="https://github.com/ChangSeopOh" target="_blank"><i class="fab fa-github color1"
+                    aria-hidden="true"></i></a>
+            <a href="./public/Resume(Changseop_Oh).pdf" download><i class="far fa-address-card color1"
+                    aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <!-- /End Footer -->
 
-        <!-- Start Contact -->
-        <section id="contact" class="section section_padding back_color2">
-            <div class="container">
-                <h2 class="color1">Contact <span class="span_color">Me</span></h2>
-                <div class="contact_me row">
-                    <div class="col-xs-12 col-md-4">
-                        <address>
-                            <div class="contact">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <span class="color1 font_size16">Address :</span>
-                                <p class="color1">7920 242nd ST SW, Edmonds, WA</p>
-                            </div>
-                            <div class="contact">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span class="color1 font_size16">Mobile :</span>
-                                <p class="color1">+1 206 372 7716</p>
-                            </div>
-                            <div class="contact">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span class="color1 font_size16">Email :</span>
-                                <p class="color1">jaden.oh@yahoo.com</p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="col-xs-12 col-md-8">
+    <!-- JQUERY JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- PARTICLES JS moving images -->
+    <script src='public/javascripts/particles.js'></script>
+    <!-- MIXITUP JS Navbar URL-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js'></script>
+    <!-- SCRIPT JS -->
+    <script src='public/javascripts/script.js'></script>
+    <!-- fontawesome js -->
+    <script src="https://kit.fontawesome.com/21a496e29e.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
 
-                        <div class="form-horizontal contact_form" action="" method="post">
-                            <div class="form-group form-group-lg">
-                                <div class="col-xs-12">
-                                    <input type="text" class="font_size16 form-control" id="inputname" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="form-group form-group-lg">
-                                <div class="col-xs-12">
-                                    <textarea class="font_size16 form-control" rows="7" id="inputmessage" placeholder="Your Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group form-group-lg">
-                                <div class="col-xs-12">
-
-                                    <button type="button" class="btn font_size16" id="email">SEND</button>
-                                    <div id="email_Iframe"></div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /End Contact -->
-
-        <!-- Start Footer -->
-        <footer>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/changseop-oh-667029109" target="_blank"><i class="fab fa-linkedin color1" aria-hidden="true"></i></a>
-                <a href="https://github.com/ChangSeopOh" target="_blank"><i class="fab fa-github color1" aria-hidden="true"></i></a>
-                <a href="./public/Resume(Changseop_Oh).pdf" download><i class="far fa-address-card color1" aria-hidden="true"></i></a>
-            </div>
-        </footer>
-        <!-- /End Footer -->
-
-        <!-- JQUERY JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <!-- PARTICLES JS moving images -->
-        <script src='public/javascripts/particles.js'></script>
-        <!-- MIXITUP JS Navbar URL-->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js'></script>
-        <!-- SCRIPT JS -->
-        <script src='public/javascripts/script.js'></script>
-        <!-- fontawesome js -->
-        <script src="https://kit.fontawesome.com/21a496e29e.js"></script>
-        <!-- bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </body>
 </html>
